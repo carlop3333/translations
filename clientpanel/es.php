@@ -2,7 +2,7 @@
 
 // page titles
 $lang['title']['mainpage_title'] = "Ver Servidores";
-$lang['title']['mainpage_description'] = "Ver y administrar servidores de Minecraft.";
+$lang['title']['mainpage_description'] = "Ve y administra tus servidores de Minecraft.";
 
 $lang['title']['createserver_title'] = "Crear Servidor";
 $lang['title']['createserver_description'] = "Crea tu propio servidor de Minecraft.";
@@ -11,10 +11,10 @@ $lang['title']['changeram_title'] = "Cambiar RAM";
 $lang['title']['changeram_description'] = "Modifique los recursos de su servidor.";
 
 $lang['title']['alwaysonline_title'] = "Siempre Online";
-$lang['title']['alwaysonline_description'] = "En contrución.";
+$lang['title']['alwaysonline_description'] = "En construcción.";
 
 $lang['title']['coins_title'] = "Monedas";
-$lang['title']['coins_description'] = "Consigue monedas y cámbialas por potenciadores para tu servidor de Minecraft.";
+$lang['title']['coins_description'] = "Consigue monedas y canjealas por potenciadores para tu servidor de Minecraft.";
 
 // navigation bar
 $lang['nav']['dashboard'] = "Panel";
@@ -24,7 +24,7 @@ $lang['nav']['servers'] = "Servidores";
 $lang['nav']['createserver'] = "Crear Servidor";
 $lang['nav']['changeram'] = "Cambiar RAM";
 $lang['nav']['alwaysonline'] = "Siempre Online";
-$lang['nav']['soon'] = "Pronto";
+$lang['nav']['soon'] = "Proximamente";
 $lang['nav']['account'] = "Cuenta";
 $lang['nav']['logintopanel'] = "Iniciar sesión en el panel";
 $lang['nav']['plandetails'] = "Detalles del plan";
@@ -60,7 +60,7 @@ $lang['widgets']['changecpu_closebutton'] = "Cerrar";
 
 $lang['widgets']['changedisk_title'] = "Cambiar Disco";
 $lang['widgets']['changedisk_newcpu'] = "Nuevo espacio en disco del servidor (en MB)";
-$lang['widgets']['changedisk_changebutton'] = "Cambiar Disco";
+$lang['widgets']['changedisk_changebutton'] = "Cambiar almacenamiento";
 $lang['widgets']['changedisk_closebutton'] = "Cerrar";
 
 // quick links
@@ -68,7 +68,7 @@ $lang['links']['quicklinks'] = "Enlaces Rápidos";
 $lang['links']['quicklinks_description'] = "Navegue por el tablero con nuestros enlaces rápidos";
 $lang['links']['createserver'] = "Crea tu propio Servidor";
 $lang['links']['createserver_description'] = "Crea tu propio servidor de Minecraft";
-$lang['links']['coinshop'] = "Comprar en la tienda FalixCoins";
+$lang['links']['coinshop'] = "Comprar en la tienda FalixCoins"; //"tienda FalixCoins" doesn't make sense (personal opinion)
 $lang['links']['coinshop_description'] = "Compra potenciadores para tu servidor de Minecraft";
 $lang['links']['coins'] = "Gana FalixCoins gratis";
 $lang['links']['coins_description'] = "Potencia tu servidor ganando nuestra moneda virtual";
@@ -77,10 +77,10 @@ $lang['links']['discordsupport_description'] = "Haz tus preguntas a nuestra comu
 
 // resources widget
 $lang['resources']['serversbalance'] = "Servidores creados";
-$lang['resources']['rambalance'] = "RAM máxima usable";
-$lang['resources']['cpubalance'] = "CPU máxima usable";
-$lang['resources']['diskbalance'] = "Espacio máximo usable";
-$lang['resources']['databasesbalance'] = "Databases máximas usables";
+$lang['resources']['rambalance'] = "RAM máxima usable"; //Can be "Espacio de RAM usable"
+$lang['resources']['cpubalance'] = "CPU máxima usable"; //Same with this one
+$lang['resources']['diskbalance'] = "Espacio de almacenamiento máximo usable"; //clarification
+$lang['resources']['databasesbalance'] = "Bases de datos máximas usables";
 $lang['resources']['portsbalance'] = "Puertos máximos usables";
 
 // login page
@@ -88,7 +88,7 @@ $lang['auth']['login_title'] = "FalixNodes";
 $lang['auth']['login_description'] = "¡Consigue tu alojamiento gratuito ahora!";
 $lang['auth']['have_an_account'] = "Crear una cuenta";
 $lang['auth']['have_an_account_button'] = "Iniciar sesión";
-$lang['auth']['dont_have_account_yet'] = "¿No tienes una cuenta? <br><a class='text-decoration-underline link-light' href='https://client.falixnodes.net/auth/register'>¡Empieza!</a>";
+$lang['auth']['dont_have_account_yet'] = "¿No tienes una cuenta? <br><a class='text-decoration-underline link-light' href='https://client.falixnodes.net/auth/register'>¡Empieza ya!</a>";
 $lang['auth']['useragreement'] = "Lea nuestro <a class='text-decoration-underline text-white' href='https://falixnodes.net/user-agreement'>Acuerdo del Usuario</a>";
 $lang['auth']['loginform_title'] = "Iniciar sesión en la cuenta";
 $lang['auth']['form_email'] = "Correo electrónico";
@@ -102,7 +102,7 @@ $lang['auth']['google'] = "Google";
 $lang['auth']['discord'] = "Discord";
 $lang['auth']['registerform_title'] = "Registrarse";
 $lang['auth']['registerform_button'] = "Registrarse";
-$lang['auth']['registerform_tosaccept'] = "Acepto los <a href='https://falixnodes.net/user-agreement'>acuerdo del usuario </a>y <a href='https://falixnodes.net/privacy-policy'>política de privacidad</a>";
+$lang['auth']['registerform_tosaccept'] = "Acepto los <a href='https://falixnodes.net/user-agreement'>acuerdos del usuario </a>y la <a href='https://falixnodes.net/privacy-policy'>política de privacidad</a>";
 $lang['auth']['registerform_marketingconsent'] = "Marque esta casilla si desea recibir correos electrónicos de marketing con nuestras últimas ofertas.";
 
 // index.php / main page
@@ -121,9 +121,9 @@ $lang['server']['database'] = "BASE DE DATOS";
 $lang['server']['port'] = "PUERTOS";
 
 $lang['server']['gotoserver'] = "Ir al Servidor";
-$lang['server']['changecpu'] = "Cambiar CPU";
+$lang['server']['changecpu'] = "Cambiar CPU"; //FIXME: Should be clarificated that they're cores, not real cpu's
 $lang['server']['changeram'] = "Cambiar RAM";
-$lang['server']['changedisk'] = "Cambiar Disco";
+$lang['server']['changedisk'] = "Cambiar Espacio de Almacenamiento";
 $lang['server']['deleteserver'] = "Eliminar Servidor";
 
 // create server page
@@ -154,7 +154,7 @@ $lang['coins']['claim'] = "Reclamar";
 $lang['coins']['invitefriends'] = "Invita a tus amigos";
 $lang['coins']['joinforrewards'] = "Únase para obtener recompensas";
 $lang['coins']['invitereward'] = "1,000 FalixCoins por amigo invitado";
-$lang['coins']['joinreward'] = "hasta 50 FalixCoins por unirse al servidor";
+$lang['coins']['joinreward'] = "hasta 50 FalixCoins por servidor unido";
 
 // affiliate page
 $lang['affiliate']['title'] = "Invita a un amigo y consigue 1,000 FalixCoins";
@@ -214,26 +214,26 @@ $lang['store']['plan_expire_on'] = "Su plan se renovará automáticamente en";
 $lang['store']['month'] = "mes";
 $lang['store']['cancelplan'] = "Cancelar Plan";
 $lang['store']['purchase'] = "Comprar Ahora";
-$lang['store']['booster'] = "Booster";
+$lang['store']['booster'] = "Potenciador";
 
 $lang['store']['booster1_servers'] = "Cree hasta 3 Servidores";
 $lang['store']['booster1_cpu'] = "Obten un 120% de potencia de CPU por cada servidor";
 $lang['store']['booster1_ram'] = "Consigue 6 GB de memoria RAM";
-$lang['store']['booster1_disk'] = "Obtenga 15 GB de disco por cada servidor";
+$lang['store']['booster1_disk'] = "Obtenga 15 GB de espacio de almacenamiento por cada servidor";
 $lang['store']['booster1_mysql'] = "Obtenga 3 bases de datos MySQL por cada servidor";
 $lang['store']['booster1_ports'] = "Obtenga 2 puertos adicionales por cada servidor";
 
 $lang['store']['booster2_servers'] = "Cree hasta 4 Servidores";
 $lang['store']['booster2_cpu'] = "Obten un 130% de potencia de CPU por cada servidor";
 $lang['store']['booster2_ram'] = "Consigue 7 GB de memoria RAM";
-$lang['store']['booster2_disk'] = "Obtenga 15 GB de disco por cada servidor";
+$lang['store']['booster2_disk'] = "Obtenga 15 GB de espacio de almacenamiento por cada servidor";
 $lang['store']['booster2_mysql'] = "Obtenga 3 bases de datos MySQL por cada servidor";
 $lang['store']['booster2_ports'] = "Obtenga 2 puertos adicionales por cada servidor";
 
 $lang['store']['booster3_servers'] = "Cree hasta 5 Servidores";
 $lang['store']['booster3_cpu'] = "Obten un 140% de potencia de CPU por cada servidor";
 $lang['store']['booster3_ram'] = "Consigue 8 GB de memoria RAM";
-$lang['store']['booster3_disk'] = "Obtenga 15 GB de disco por cada servidor";
+$lang['store']['booster3_disk'] = "Obtenga 15 GB de espacio de almacenamiento por cada servidor";
 $lang['store']['booster3_mysql'] = "Obtenga 3 bases de datos MySQL por cada servidor";
 $lang['store']['booster3_ports'] = "Obtenga 2 puertos adicionales por cada servidor";
 
